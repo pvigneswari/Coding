@@ -6,4 +6,4 @@ def kSmallestLargest(arr,k):
     largestArr=sortedArr[-k]
     return smallArr,largestArr
 
-print(kSmallestLargest([1,4,2,3,56,43,66],3))
+print(kSmallestLargest([1,4,2,3,56,43,66],3)) # output

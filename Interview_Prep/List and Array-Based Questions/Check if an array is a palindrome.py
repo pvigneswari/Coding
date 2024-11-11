@@ -1,11 +1,3 @@
-# def arrayPalindrome(arr):
-#     rev=arr[::-1]
-#     return  rev==arr
-# # print(arrayPalindrome(['m','a','d','a','m','t']))
-# print(arrayPalindrome([1,2,1]))
-
-
-
 #two pointer approach
 def arrayPalindrome(arr):
     left,right = 0, len(arr)-1
@@ -15,4 +7,11 @@ def arrayPalindrome(arr):
         left += 1
         right -= 1
     return True
-print(arrayPalindrome([2,3,3,2]))
+print(arrayPalindrome([2,3,3,2])) #expected output true
+
+
+# def arrayPalindrome(arr):
+#     rev=arr[::-1]
+#     return  rev==arr
+# # print(arrayPalindrome(['m','a','d','a','m','t']))
+# print(arrayPalindrome([1,2,1]))
